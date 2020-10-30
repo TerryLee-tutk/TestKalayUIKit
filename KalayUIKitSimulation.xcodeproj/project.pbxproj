@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90D8FD3254BF193005C6F6B /* KIDewarp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90D8FD2254BF193005C6F6B /* KIDewarp.framework */; };
 		E9907A45254A59680013EB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9907A44254A59680013EB05 /* AppDelegate.swift */; };
 		E9907A47254A59680013EB05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9907A46254A59680013EB05 /* SceneDelegate.swift */; };
 		E9907A49254A59680013EB05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9907A48254A59680013EB05 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		E9907A62254A598C0013EB05 /* TUTKKalayUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E9907A60254A598C0013EB05 /* TUTKKalayUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9907B91254A74590013EB05 /* TUTKKalayUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9907A5E254A598C0013EB05 /* TUTKKalayUIKit.framework */; };
 		E9907B92254A74590013EB05 /* TUTKKalayUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9907A5E254A598C0013EB05 /* TUTKKalayUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E9907BB4254A92D10013EB05 /* KIDewarp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9907BB3254A92D10013EB05 /* KIDewarp.framework */; };
 		E9FEA68F254A9BEC00AD9A1A /* LiveView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E9907AEB254A69850013EB05 /* LiveView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9FEA693254A9C0600AD9A1A /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9907AEB254A69850013EB05 /* LiveView.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E90D8FD2254BF193005C6F6B /* KIDewarp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KIDewarp.framework; path = Carthage/Build/iOS/KIDewarp.framework; sourceTree = SOURCE_ROOT; };
 		E9907A41254A59680013EB05 /* KalayUIKitSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalayUIKitSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9907A44254A59680013EB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9907A46254A59680013EB05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		E9907A60254A598C0013EB05 /* TUTKKalayUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUTKKalayUIKit.h; sourceTree = "<group>"; };
 		E9907A61254A598C0013EB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9907AEB254A69850013EB05 /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
-		E9907BB3254A92D10013EB05 /* KIDewarp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KIDewarp.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9907BB4254A92D10013EB05 /* KIDewarp.framework in Frameworks */,
+				E90D8FD3254BF193005C6F6B /* KIDewarp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 				E9907A60254A598C0013EB05 /* TUTKKalayUIKit.h */,
 				E9907AEB254A69850013EB05 /* LiveView.swift */,
 				E9907A61254A598C0013EB05 /* Info.plist */,
-				E9907BB3254A92D10013EB05 /* KIDewarp.framework */,
+				E90D8FD2254BF193005C6F6B /* KIDewarp.framework */,
 			);
 			path = TUTKKalayUIKit;
 			sourceTree = "<group>";
@@ -496,6 +496,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TUTKKalayUIKit",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = TUTKKalayUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -540,6 +541,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TUTKKalayUIKit",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = TUTKKalayUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
