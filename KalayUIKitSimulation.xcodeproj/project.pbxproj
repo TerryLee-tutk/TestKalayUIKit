@@ -155,6 +155,7 @@
 				E9907A3E254A59680013EB05 /* Frameworks */,
 				E9907A3F254A59680013EB05 /* Resources */,
 				E9907B95254A74590013EB05 /* Embed Frameworks */,
+				E90D8FCA254BEE4A005C6F6B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -240,6 +241,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E90D8FCA254BEE4A005C6F6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/KIDewarp.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9907A3D254A59680013EB05 /* Sources */ = {
