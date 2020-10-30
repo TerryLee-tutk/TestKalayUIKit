@@ -252,6 +252,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/KIDewarp.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TUTKKalayUIKit.framework",
 			);
 			outputFileListPaths = (
 			);

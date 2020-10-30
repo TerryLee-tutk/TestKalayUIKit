@@ -1,8 +1,8 @@
 {
-  "commitish" : "21b3305b8d044bc3d9d4f515a340c3b2d5ecd2b2",
+  "commitish" : "8814e0f55a1c0dc637f8df9f57f4b1fab8fa0ac9",
   "iOS" : [
     {
-      "hash" : "432527f2ffed471d025c91c93e37bbd25c074ab6b72901b126cbddadf16e5a5f",
+      "hash" : "145357b95e1c5b65315bc3a4d3a7b18e1f6f51a538c8c767be7a4d9e92f03080",
       "name" : "TUTKKalayUIKit",
       "linking" : "dynamic",
       "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
