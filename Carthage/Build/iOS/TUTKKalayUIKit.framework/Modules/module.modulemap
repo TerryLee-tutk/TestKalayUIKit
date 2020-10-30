@@ -1,0 +1,11 @@
+framework module TUTKKalayUIKit {
+  umbrella header "TUTKKalayUIKit.h"
+
+  export *
+  module * { export * }
+}
+
+module TUTKKalayUIKit.Swift {
+    header "TUTKKalayUIKit-Swift.h"
+    requires objc
+}

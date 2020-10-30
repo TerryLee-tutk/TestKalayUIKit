@@ -1,0 +1,6 @@
+framework module KIDewarp {
+  umbrella header "KIDewarp.h"
+
+  export *
+  module * { export * }
+}
